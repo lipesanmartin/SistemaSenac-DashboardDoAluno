@@ -1,3 +1,4 @@
+@charset "utf-8";
 
 hr {
   margin-bottom: 30px;
@@ -7,6 +8,7 @@ hr {
 /* navbar */
 .navbar-nav .nav-link {
     color: white;
+    font-size:larger;
   }
 
 .navbar {
@@ -79,7 +81,7 @@ hr {
 
 .card {
   border-radius: 6px !important;
-  margin-bottom: 15px !important;
+  margin: 10px !important;
 }
 
 
@@ -123,6 +125,7 @@ hr {
     max-width: 600px;
     margin: 0 auto;
     size: 80%;
+    margin-top: 10px;
   }
 
 .calendar th {
