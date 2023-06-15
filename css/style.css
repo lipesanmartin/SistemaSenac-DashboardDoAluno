@@ -1,0 +1,312 @@
+
+hr {
+  margin-bottom: 30px;
+}
+
+
+/* navbar */
+.navbar-nav .nav-link {
+    color: white;
+  }
+
+.navbar {
+    background-color: #122B4B !important;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  .nav-badge-link {
+    padding: 0 20px;
+
+  }
+
+
+.navbar-nav .nav-item {
+    padding: 0px 30px;
+  }
+
+  .navbar-nav .nav-link {
+    color: white !important;
+    transition: none !important;
+  }
+
+  .navbar-nav .nav-item.active .nav-link {
+    border-bottom: 6px solid orange;
+  }
+
+  .nav-icons {
+    display: flex;
+  }
+
+  .navbar-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .brand-main {
+    font-weight: normal;
+  }
+
+  .brand-sub {
+    font-weight: bold;
+  }
+
+  .badge-image-nav {
+    width: 50px;
+    height: auto;
+  }
+
+
+/* primeira linha */
+/* esquerda */
+
+.linha1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+
+.linha1-esquerda {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.card {
+  border-radius: 6px !important;
+  margin-bottom: 15px !important;
+}
+
+
+.card-title {
+    color: #122B4B;
+  }
+
+.card-body {
+    position: relative;
+  }
+
+  .card-icon {
+    height: 25px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+
+.btn-primary {
+    position: absolute;
+    background-color: #122B4B;
+    bottom: 0px;
+    right: 0;
+    margin-top: 30px;
+    margin: 5px;
+  }
+
+.btn-primary:hover{
+    background-color: orange;
+  }
+
+.badge-image {
+    width: 50px;
+    height: auto;
+    margin: 20px;
+  }
+
+/* meio */
+
+.calendar {
+    max-width: 600px;
+    margin: 0 auto;
+    size: 80%;
+  }
+
+.calendar th {
+    text-align: center;
+  }
+.calendar .today {
+    background-color: #f0f0f0;
+  }
+.calendar .event {
+    background-color: #f8f8f8;
+  }
+
+
+/* direita */
+
+.linha1-direita {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.parte-azul {
+  background-color: #122B4B;
+  height: 10.45rem;
+  width: 55%;
+  float: left;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 6px;
+}
+
+.parte-azul h5 {
+  color: white;
+  margin-bottom: 25px;
+}
+
+.profile-badge {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.profile-img {
+  width: 70px;
+  border-radius: 50%;
+}
+
+.profile-drop {
+  width: 25px;
+  margin-top: 20px;
+}
+
+.badge-image-profile {
+  width: 50px;
+  height: auto;
+}
+
+
+.parte-branca {
+  height: 100%;
+  width: 45%;
+  float: right;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-subtitle {
+  font-size: 1rem;
+  color: gray;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  font-weight:600;
+  color: #122B4B;
+}
+
+.img-fluid {
+  width: 45px;
+  height: auto;
+  margin-left: 30px;
+}
+
+.tarefas {
+  align-items: center;
+  margin: 10px 0px;
+
+}
+
+
+/* LINHA 2 TABELA */
+
+.linha2 h4 {
+  color: #122B4B;
+  margin-bottom: 15px;
+}
+
+.table {
+  width: 100%;
+
+}
+
+.table th {
+  text-align: center;
+  align-items: center;
+  color: #333333;
+  font-weight: bolder;
+}
+
+.table td {
+  font-weight: bold;
+  color: #122B4B;
+  text-align: center;
+  align-items: center;
+}
+
+.table-image {
+  height: 25px;
+}
+
+.progress {
+  margin-top: 5px;
+}
+
+.progress-bar {
+  background-color: #00498D;
+}
+
+/* LINHA 3 */
+
+.card-supertitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter-icon {
+  height: 20px;
+}
+
+.card-icon-left {
+  right: 45px;
+}
+
+
+@media (max-width: 992px) {
+
+  .short {
+    width: 100% !important;
+  }
+
+  .linha1-esquerda {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .linha1-direita {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .linha1-esquerda, .linha1-direita {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .badge-image-nav {
+    width: 30px;
+
+  }
+
+}
